@@ -1,63 +1,151 @@
-.container{
-    border-radius: 8px;
-    border: solid;
-    width: 100%;
-    padding: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  gap: 8px;
+  padding: 30px;
+  margin-bottom: 60px;
 }
-.progressBar {
-  height: 22px;
-  width: 470px;
-  border-radius: 20px;
-  background-color: hsl(62, 19%, 63%);
-}
-.innerPb {
-  height: 22px;
-  width: 350px;
-  border-radius: 20px;
+
+button {
+  border: none;
+  border-radius: 10px;
   color: white;
+  padding: 20px;
+  width: 140px;
+  height: 50px;
+
+}
+
+.addProduct {
+  background-color: #6C2BD9;
+  text-align: center;}
+
+.requestCapital {
+  background-color: #F6A609;
+  text-align: center;}
+
+button.sellProduct {
+  border: solid;
+  border-radius: 10px;
+  color: #6C2BD9;
+  padding: 10px;
+  width: 140px;
+  height: 50px;
   text-align: center;
-  background-color: #7647ee;
+  border-color: #6C2BD9;
 }
-body {
+
+
+button.arrowDone {
+  border: solid;
+  border-radius: 10px;
+  color: #6C2BD9;
+  padding: 10px;
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  border-color: #6C2BD9;
+}
+
+
+
+.analyticsBox {
   display: flex;
+  gap: 30px;
   justify-content: center;
-  margin: 250px;
-  flex-wrap: wrap;
+  margin-bottom: -30px;
 }
-.content{
+
+
+
+.card {
   display: flex;
-  flex-direction: column;
-  gap: 1px;
-  flex-wrap: wrap;
+  width: 350px;
+  height: 50;
+  border-radius: 10px;
+  border-style: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
 }
 
-.span {
-    margin-top: -15px;
-}
-.pbContent{
-    display: flex;
-    flex-direction: column;
-    gap: 1px; 
-    justify-content: center;
-    text-align: center;
+.line1 {
+  background-color: #6C2BD9;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
 }
 
-.button{
-    padding: 10px;
-    background-color: #7647ee;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    height: 34px;
+.line2 {
+  background-color: #33df4f;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
 }
-.allPb{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+
+.line3 {
+  background-color: #da5d37;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
 }
+
+.label {
+  width: 200px;
+  margin-right: 30px;
+  margin-top: 5px;
+  font-family:  sans-serif;
+}
+
+.value {
+  width: 200px;
+  margin-right: -100px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-family:  sans-serif;
+}
+
+.snAnalyticsbox {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.spValue {
+  margin-right: -200px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-family:  sans-serif;
+}
+
+.spLebel {
+  width: 200px;
+  margin-right: 130px;
+  margin-top: 5px;
+  font-family:  sans-serif;
+}
+
+.line4 {
+  background-color: #da3791;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
+}
+
+.line5 {
+  background-color: #377eda;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
+}
+
+.line6 {
+  background-color: #37c2da;
+  height: 30px;
+  width: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color: #f1f4f5;
+}
+
